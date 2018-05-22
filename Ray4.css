@@ -1,0 +1,60 @@
+*{box-sizing: border-box;}
+
+body{
+	background-color:#f8f8ff;
+}
+
+
+header{
+	text-indent: 30px;
+	
+}
+.logo{
+	width:200px;
+	height:130px;
+	color: red;
+	margin-top: 0;
+	
+}
+.ray{
+	position:relative;
+	bottom:40px;
+	display: inline-block;
+	right: 50px;
+	
+}
+
+.icon{
+	
+	float:right;
+	width: 40px;
+	height: 40px;
+}
+.container{
+	width:1280px;
+	height:100%;
+	position:relative;
+	bottom: 40px;
+	font-family:'Skranji', cursive;
+	margin: 0 auto;
+	
+}
+nav{
+margin: 0 auto;
+width: 1280px;
+padding: 10px;	
+border: 1px solid black;
+background:black;
+text-align: center;
+
+}
+
+nav a{
+color: yellow;
+display: inline-block;
+padding: 20px;
+}
+nav a:hover{
+background:red;
+text-decoration: underline;
+}

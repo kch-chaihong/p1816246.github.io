@@ -1,0 +1,101 @@
+*{box-sizing: border-box;}
+
+header{
+	text-indent: 30px;
+}
+.icon{
+	
+	float:right;
+	width: 40px;
+	height: 40px;
+}
+.container{
+	width:1280px;
+	height:100%;
+	display:table;
+	font-family:'Skranji', cursive;
+	margin: 0 auto;
+	
+}
+
+body{
+	
+	background:url('bk.jpeg');
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+
+
+h1{
+color: white;
+font-family: 'Skranji', cursive;
+}
+
+section img{
+width:1280px;
+margin: 0 auto;
+height: 500px;
+
+}
+nav{
+margin: 0 auto;
+width: 1280px;
+padding: 10px;	
+border: 1px solid black;
+background:black;
+text-align: center;
+
+}
+nav a{
+color: yellow;
+display: inline-block;
+padding: 20px;
+text-decoration: none;
+}
+nav a:hover{
+background:red;
+text-decoration: none;
+}
+
+nav a:visited {
+    text-decoration: none;
+}
+article a{
+
+font-weight: normal;
+font-size: 24px;
+float: left;
+font-family: 'Roboto', sans-serif;
+
+}
+article img{
+	width: 34%;
+	height: 180px;
+	float: left;
+	
+}
+.column{ 
+background: rgba(255,255,255,0.5);
+width:70%;
+border: 1px solid black;
+display: inline-block;
+
+}
+
+.col2{
+	float: right;
+}
+.col3{
+	float: left;
+}
+.about{
+	text-indent: 10px;
+}
+.contact{
+	text-indent: 10px;
+}
+.product{
+	text-indent: 10px;
+}

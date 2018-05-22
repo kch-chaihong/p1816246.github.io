@@ -1,0 +1,69 @@
+﻿/* 
+   Revisions Bookstore and Cafe style sheet 
+   Filename: styles.css
+
+   Author:   Khor Chai Hong (1A01)
+   Date:     4/5/18
+   HTML5 and CSS3 Illustrated Unit D, Visual Workshop
+ */
+
+/* body and page container */
+body {
+   background-color: floralwhite;
+   
+   
+}
+.container {
+   background-color: burlywood;
+   border: 2px solid black;
+   width: 1200px;
+   margin: 10px;
+   
+   
+  
+  
+}
+
+/* headings */
+header {
+   text-align: center;
+   color: navy;
+   background-color: lightblue;
+   padding: 20px;
+  
+ 
+  
+
+}
+
+/* main content */
+article {
+   background-color: white;
+   width: 80%;
+   height: 200px;
+   float: right;
+   padding: 10px;
+   
+}
+p{
+padding-left: 20px;}
+
+
+/* sidebar */
+aside {
+   background-color: burlywood;
+     width: 20%;
+   height: 200px;
+   padding: 10px;
+   
+}
+
+
+
+/* footer section */
+footer {
+   color: navy;
+   background-color: lightblue;
+   text-align: right;
+   padding: 10px;
+}

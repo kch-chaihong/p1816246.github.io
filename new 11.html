@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Layout</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+*{box-sizing: border-box;}
+
+.container{
+	width: 1200px;
+	min-height: 500px;
+	background: gray;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+section{
+	height: auto;
+	clear: both;
+}
+
+.column{
+	min-height: 100px;
+	border: 1px solid black;
+	float: left;
+	background: white;
+	
+}
+
+.col2{
+	width: 50%;
+}
+
+.col3{
+	width: 33.33%;
+}
+
+header{
+	clear: both;
+	height: 200px;
+	background: green;
+}
+
+footer{
+	clear: both;
+	height: 100px;
+	background: green;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<header></header>
+<section>
+<div class="column col3"></div>
+<div class="column col3"></div>
+<div class="column col3"></div>
+</section>
+
+<section>
+<div class="column col2">
+<section>
+<div class="column col3"></div>
+<div class="column col3"></div>
+<div class="column col3"></div>
+</section>
+
+</div>
+<div class="column col2"></div>
+</section>
+
+<footer></footer>
+</div>
+
+
+</body>
+</html>
